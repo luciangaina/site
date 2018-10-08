@@ -72,7 +72,7 @@ a:hover {
 	font-size: 25px;	
 	color:#fff;	
 	text-transform:uppercase;
-	font-weight:600;
+  font-weight:600;
 }
 
 .menu {
@@ -1119,4 +1119,80 @@ ul.social-network li a {
 	font-weight:600;
 	font-size:12px;
 	text-shadow:none;
-} 
+}
+
+.body-index {
+  padding:50px;
+  background:#65AAF0;
+}
+
+.body-index-h1 {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  font-size: 60px;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.body-index-h2 {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  font-size: 30px;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.body-index-h3 {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.video {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  background-color: black;
+  padding-top: 100px;
+}
+
+.dt-logo {
+  float: right;
+}
+
+.dt-logo > img {
+  width: 150px;
+  padding: 8px;
+}
+
+.cioff-logo {
+  float: left;
+}
+
+.cioff-logo > img {
+  width: 200px;
+  padding: 18px;
+}
+
+.uk-flag {
+  float: left;
+  padding: 120px;
+}
+
+.uk-flag-img {
+  width: 90px;
+}
+
+.ro-flag {
+  float: right;
+  padding: 120px;
+}
+
+.ro-flag-img {
+  width: 80px;
+}
