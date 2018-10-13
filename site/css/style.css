@@ -1122,7 +1122,7 @@ ul.social-network li a {
 }
 
 .body-index {
-  padding:50px;
+  padding: 50px;
   background:#65AAF0;
 }
 
@@ -1153,46 +1153,52 @@ ul.social-network li a {
   color: #fff;
 }
 
-.video {
-  position: relative;
+.video-index{
   margin: auto;
-  width: 50%;
-  background-color: black;
-  padding-top: 100px;
+  padding-top: 40px;
+  width: 60%;
+}
+.video-index > video{
+  display: block;
+  margin: auto;
 }
 
 .dt-logo {
   float: right;
+  width: 160px;
 }
 
 .dt-logo > img {
   width: 150px;
-  padding: 8px;
 }
 
 .cioff-logo {
   float: left;
+  width: 300px;
 }
 
 .cioff-logo > img {
   width: 200px;
-  padding: 18px;
 }
 
 .uk-flag {
   float: left;
-  padding: 120px;
+  padding-top: 240px;
+  width: 100px;
 }
 
 .uk-flag-img {
   width: 90px;
+  padding-left: 80px;
 }
 
 .ro-flag {
   float: right;
-  padding: 120px;
+  padding-top: 240px;
+  width: 100px;
 }
 
 .ro-flag-img {
   width: 80px;
+  padding-left: 80px;
 }
