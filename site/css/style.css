@@ -75,6 +75,12 @@ a:hover {
   font-weight:600;
 }
 
+.navbar-brand img {
+  float: left;
+  width: 60px;
+  padding: 7px;
+}
+
 .menu {
 	font-size:12px;
 	float:right;
@@ -264,20 +270,22 @@ a:hover {
 ============================ */
 
 .about {
-	padding:80px 0 80px 0;
+	padding:60px 0 60px 0;
 	background:#fff;
 }
 
 .about .text-center h2 {
 	text-transform:uppercase;
 	font-weight:550;
-	font-size:24px;
+  font-size:24px;
 }
 
 .about .text-center p {
 	margin-top:20px;
 	margin-bottom:80px;
-	color:#aaa;
+  color:rgb(105, 105, 105);
+  font-size: 11pt;
+  text-align: justify;
 } 
 
 .btn-gamp a {
@@ -1119,6 +1127,20 @@ ul.social-network li a {
 	font-weight:600;
 	font-size:12px;
 	text-shadow:none;
+}
+
+.login {
+  float: right;
+  width: 140px;
+}
+
+.login h5{
+  color: #fff;
+  text-align: right;
+}
+
+.login img{
+  width: 35px;
 }
 
 .body-index {
