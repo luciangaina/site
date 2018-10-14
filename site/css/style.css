@@ -278,6 +278,7 @@ a:hover {
 	text-transform:uppercase;
 	font-weight:550;
   font-size:24px;
+  font-weight: bold;
 }
 
 .about .text-center p {
@@ -286,7 +287,61 @@ a:hover {
   color:rgb(105, 105, 105);
   font-size: 11pt;
   text-align: justify;
-} 
+}
+
+.about-gallery {
+	padding:60px 0 60px 0;
+	background:#fff;
+}
+
+.about-gallery .text-center h2 {
+	text-transform:uppercase;
+	font-weight:550;
+  font-size:24px;
+  font-weight: bold;
+}
+
+.about-gallery .text-center p {
+	margin-top:20px;
+	margin-bottom:80px;
+  color:rgb(105, 105, 105);
+  font-size: 11pt;
+  text-align: center;
+}
+
+.gallery {
+	padding:20px 0 20px 0;
+	background:#fff;
+}
+
+.gallery .text {
+  width: 20%;
+  height: 150px;
+  color:rgb(105, 105, 105);
+  font-size: 13pt;
+  font-weight: bold;
+  text-align: justify;
+  float: left;
+  padding-top: 60px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  transition: 1s;
+  padding: 6px;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(8px 8px 10px #65AAF0);
+}
+
+.gallery hr {
+  border-top: 1px solid rgb(105, 105, 105);
+  border-bottom: 1px solid rgb(105, 105, 105);
+}
+
 
 .btn-gamp a {
   float: right;
