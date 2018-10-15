@@ -320,7 +320,7 @@ a:hover {
   color:rgb(105, 105, 105);
   font-size: 13pt;
   font-weight: bold;
-  text-align: justify;
+  text-align: left;
   float: left;
   padding-top: 60px;
 }
@@ -1256,6 +1256,7 @@ ul.social-network li a {
 
 .cioff-logo > img {
   width: 200px;
+  padding-top: 10px;
 }
 
 .uk-flag {
