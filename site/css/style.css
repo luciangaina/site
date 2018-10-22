@@ -1187,6 +1187,7 @@ ul.social-network li a {
 .login {
   float: right;
   width: 140px;
+  padding-top: 15px;
 }
 
 .login h5{
