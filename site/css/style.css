@@ -342,6 +342,82 @@ a:hover {
   border-bottom: 1px solid rgb(105, 105, 105);
 }
 
+.repertoriu {
+  padding:60px 0 20px 0;
+	background:#fff;
+}
+
+.repertoriu .titlu {
+  float: left;
+  color:rgb(105, 105, 105);
+  font-size: 15pt;
+  font-weight: bold;
+  text-align: center;
+  width: 20%;
+  padding: 100px 0;
+}
+
+.repertoriu .descriere {
+  float: left;
+  color:rgb(105, 105, 105);
+  font-size: 12pt;
+  text-align: justify;
+  width: 40%;
+  /*padding: 52px 0;*/
+  padding: 5px 5px 5px 5px;
+}
+
+.repertoriu .galerie{
+  float: left;
+  width: 40%;
+  padding: 5px 5px 5px 5%;
+}
+
+.repertoriu .galerie img {
+  width: 150px;
+  height: 100px;
+  margin: 6px;
+  transition: 1s;
+}
+
+.repertoriu .galerie img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(8px 8px 10px #65AAF0);
+}
+
+.dans {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 260px;
+}
+
+.repertoriu .separator hr {
+  border-top: 1px solid rgb(105, 105, 105);
+  border-bottom: 1px solid rgb(105, 105, 105);
+  width: 92%;
+}
+
+.drapel .albastru,
+.drapel .galben,
+.drapel .rosu {
+  float: left;
+  width: 33.3%;
+}
+
+.drapel .albastru hr {
+  border-top: 3px solid #002B7F;
+  border-bottom: 2px solid #002B7F;
+}
+
+.drapel .galben hr {
+  border-top: 3px solid #FCD116;
+  border-bottom: 2px solid #FCD116;
+}
+
+.drapel .rosu hr {
+  border-top: 3px solid #CE1126;
+  border-bottom: 2px solid #CE1126;
+}
 
 .btn-gamp a {
   float: right;

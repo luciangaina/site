@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	
+	<title>Doina Timișului - Contact</title>
+	<link rel="Icon" type="image/png" href="img/dt.png" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link href="css/animate.min.css" rel="stylesheet" /> 
+	<link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>	
+	<header id="header">
+        <nav class="navbar navbar-default navbar-static-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                   <div class="navbar-brand">
+						<a href="index.html"><img src="img/dt.png" /><h1>Ansamblul folcloric "Doina Timișului"</h1></a>
+					</div>
+                </div>				
+                <div class="navbar-collapse collapse">							
+					<div class="menu">
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation"><a href="home_ro.html">Acasă</a></li>
+							<li role="presentation"><a href="repertoriu_ro.html">Repertoriu</a></li>
+							<li role="presentation"><a href="galerie_ro.html">Galerie</a></li>
+							<li role="presentation"><a href="contact_ro.html" class="active">Contact</a></li>												
+						</ul>
+					</div>
+				</div>		
+            </div>
+        </nav>	
+    </header>
+	
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11137.560043505078!2d21.20298371977539!3d45.74332660000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe10f3455e4fb4de3!2sCasa+de+Cultur%C4%83+a+Studen%C5%A3ilor!5e0!3m2!1sro!2sro!4v1540197424985" allowfullscreen></iframe>
+		</iframe>
+	</div>
+	
+	<section class="contact-page">
+        <div class="container">
+
+            <div class="text-center">        
+                <h2>Lăsați-ne un mesaj</h2>
+                <p>Pentru informații suplimentare ne puteți contacta, completând formularul de mai jos!</p>
+            </div> 
+            <div class="row contact-wrap"> 
+                <div class="status alert alert-success" style="display: none"></div>
+<!--!!!! -->                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="email.php">
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <div class="form-group">
+                            <label>Nume *</label>
+                            <input type="text" name="name" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input type="email" name="email" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Telefon</label>
+                            <input type="text" name="telefon" class="form-control">
+                        </div>                       
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <label>Subiect *</label>
+                            <input type="text" name="subject" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Mesaj *</label>
+                            <textarea name="message" id="message" required="required" class="form-control" rows="5"></textarea>
+                        </div>                        
+                        <div class="form-group">
+                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Trimiteți mesajul</button>
+                        </div>
+                    </div>
+                </form> 
+            </div>
+        </div>
+    </section>
+
+
+	<footer>
+		<div class="container">
+			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+				<h4>Contact rapid</h4>
+				<p>Mai multe informații puteți găsii la sediul Casei de Cultură a Studenților sau la telefon.</p>						
+				<div class="contact-info">
+					<ul>
+						<li><i class="fa fa-home fa"></i> Bulevardul Regele Carol I Nr. 9, Timișoara </li>
+						<li><i class="fa fa-phone fa"></i> +4 0256 496 711</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-md-4 wow fadeInDown">				
+			</div>
+			
+			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">				
+				<div class="">
+					<h4>some text</h4>
+					<p>some text</p>
+					<!-- <div class="btn-gamp">		
+						<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Email">
+					</div>
+					<div class="btn-gamp">
+						<a type="submit" class="btn btn-default">Subscribe</a>
+					</div> -->
+				</div>
+			</div>
+		</div>	
+	</footer>
+	
+	<div class="sub-footer">
+		<div class="container">
+			<div class="social-icon">
+				<div class="col-md-4">
+					<ul class="social-network">
+						<li><a href="https://www.facebook.com/Ansamblul-folcloric-Doina-Timisului-Official-523289564377770/" target="_blank" class="fa fa-facebook" title="Facebook"></a></li>
+						<li><a href="https://www.instagram.com/ansambluldoinatimisului/" target="_blank" class="fa fa-instagram" title="Instagram"></a></li>
+					</ul>	
+				</div>
+			</div>
+			
+			<div class="col-md-4 col-md-offset-4">
+				<div class="copyright">
+					&copy; Doina Timișului 2018
+				</div>
+			</div>						
+		</div>				
+	</div>
+	
+    <script src="js/jquery.js"></script>		
+    <script src="js/bootstrap.min.js"></script>	
+	<script src="js/wow.min.js"></script>
+	<script>
+	wow = new WOW(
+	 {
+		}).init();
+	</script>	
+  </body>
+</html>
