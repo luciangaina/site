@@ -45,11 +45,11 @@
             </div> 
             <div class="row contact-wrap"> 
                 <div class="status alert alert-success" style="display: none"></div>
-<!--!!!! -->                <form id="main-contact-form" class="contact-form" name="contact-form" method="post">
+               <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="insert.php">
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
                             <label>Nume *</label>
-                            <input type="text" name="name" class="form-control" required="required">
+                            <input type="text" name="nume" class="form-control" required="required">
                         </div>
                         <div class="form-group">
                             <label>Telefon *</label>
@@ -71,7 +71,7 @@
                     <div class="col-sm-5">
                         <div class="form-group">
                                 <label>Locația *</label>
-                                <input type="text" name="locatia" class="form-control" required="required">
+                                <input type="text" name="locatie" class="form-control" required="required">
                         </div>
                         <div class="form-group">
                             <label>Numărul de dansatori (perechi) *</label>
@@ -79,7 +79,7 @@
                         </div>
                         <div class="form-group">
                             <label>Observații (Precizați numărul de dansuri și zonele folclorice care să fie reprezentare!) *</label>
-                            <textarea name="message" id="observatii" required="required" class="form-control" rows="5" placeholder="Ex: Banat - 2; Oltenia, Moldova"></textarea>
+                            <textarea name="obs" id="obs" required="required" class="form-control" rows="5" placeholder="Ex: Banat - 2; Oltenia, Moldova"></textarea>
                         </div>                        
                         <div class="form-group">
                             <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Trimiteți Formularul</button>
