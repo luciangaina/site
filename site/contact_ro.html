@@ -133,6 +133,8 @@
 			</div>						
 		</div>				
 	</div>
+
+	<a href="#" class="to-top"><i class="fa fa-chevron-up"></i></a>
 	
     <script src="js/jquery.js"></script>		
     <script src="js/bootstrap.min.js"></script>	
@@ -142,5 +144,23 @@
 	 {
 		}).init();
 	</script>	
+	<script>            
+		jQuery(document).ready(function() {
+			var duration = 500;
+			jQuery(window).scroll(function() {
+				if (jQuery(this).scrollTop() > 200) {
+					jQuery('.to-top').fadeIn(duration);
+				} else {
+					jQuery('.to-top').fadeOut(duration);
+				}
+			});
+				
+			jQuery('.to-top').click(function(event) {
+				event.preventDefault();
+				jQuery('html').animate({scrollTop: 0}, duration);
+				return false;
+			})
+		});
+	</script>
   </body>
 </html>
