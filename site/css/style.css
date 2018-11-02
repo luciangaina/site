@@ -1180,6 +1180,28 @@ footer .btn-gamp input {
   right: 0;
 }
 
+.button-center {
+  text-align: center;
+}
+
+.back-button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+.back-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 .contact-info {
 	color:#fff;
 }
@@ -1295,7 +1317,7 @@ ul.social-network li a {
 
 .body-index {
   padding: 50px;
-  background:#65AAF0;
+  background-color:#65AAF0;
 }
 
 .body-index-h1 {
@@ -1322,6 +1344,23 @@ ul.social-network li a {
   width: 50%;
   font-size: 18px;
   line-height: 1.3;
+  color: #fff;
+}
+
+.body-index .center-insert {
+  width: 60%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.body-index .center-insert h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+.body-index .center-insert h2 {
+  text-align: center;
   color: #fff;
 }
 
@@ -1361,8 +1400,9 @@ ul.social-network li a {
 }
 
 .uk-flag-img {
-  width: 90px;
-  padding-left: 80px;
+  width: 80px;
+  height: 53px;
+  padding-left: 83px;
 }
 
 .ro-flag {
@@ -1373,6 +1413,7 @@ ul.social-network li a {
 
 .ro-flag-img {
   width: 80px;
+  height: 53px;
   padding-left: 80px;
 }
 
