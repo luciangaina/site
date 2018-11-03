@@ -22,6 +22,7 @@
     $q= "INSERT INTO dt_booking (b_nume,b_telefon,b_email,b_data,b_ora,b_locatie,b_perechi,b_obs) VALUES ('$nume','$telefon','$email','$data','$ora','$locatie','$perechi','$obs')";
 
 ?>
+
 <html>
     <head>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
