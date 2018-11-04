@@ -1364,11 +1364,39 @@ ul.social-network li a {
   color: #fff;
 }
 
+.body-index .center-admin {
+  margin: auto;
+  padding-top: 30px;
+  width: 84%;
+}
+
+.body-index .center-admin h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+.body-index .center-admin h2 {
+  text-align: justify;
+  color: #fff;
+  font-size: 25px;
+}
+
+.body-index table {
+  margin: auto;
+  background: #fff;
+}
+
+.body-index table th {
+  color: #fff;
+}
+
 .video-index{
   margin: auto;
   padding-top: 40px;
   width: 60%;
 }
+
 .video-index > video{
   display: block;
   margin: auto;
