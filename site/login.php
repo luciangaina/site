@@ -3,11 +3,7 @@
 	$username= $_POST["username"];
 	$password= $_POST["password"];
 
-	$db_server="localhost";
-	$db_port="3306";
-	$db_name="dt_database";
-	$db_user="dt_database";
-	$db_pass="dt_database";
+	include_once('db_properties.php');
 
 	$con=mysqli_connect($db_server,$db_name,$db_pass);
 
@@ -31,7 +27,7 @@
 		if(mysqli_num_rows($res)>0)
 		{?>
 	<head>
-		<meta http-equiv="refresh" content="0; url='try.php'" />
+		<meta http-equiv="refresh" content="0; url='admin.php'" />
 	</head>
 	<?php
 		}
