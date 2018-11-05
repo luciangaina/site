@@ -42,7 +42,9 @@
 				<link href="css/style.css" rel="stylesheet" />
 			</head>
 			<body class="body-index">
-				<h1>Unser not loged in</h1>
+				<div class="center-insert">
+					<h1>User not logged in</h1>
+				</div>	
 			</body>
 		<?php } ?>
 </html>
