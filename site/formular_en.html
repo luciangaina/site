@@ -3,7 +3,7 @@
   <head>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	
-	<title>Doina Timișului - Contact</title>
+	<title>Doina Timișului - Formular</title>
 	<link rel="Icon" type="image/png" href="img/dt.png" />
 
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -19,16 +19,16 @@
             <div class="container">
                 <div class="navbar-header">
                    <div class="navbar-brand">
-						<a href="index.html"><img src="img/dt.png" /><h1>Ansamblul folcloric "Doina Timișului"</h1></a>
+						<a href="index.html"><img src="img/dt.png" /><h1>The folkloric ensemble "Doina Timișului"</h1></a>
 					</div>
                 </div>				
                 <div class="navbar-collapse collapse">							
 					<div class="menu">
 						<ul class="nav nav-tabs" role="tablist">
-							<li role="presentation"><a href="home_ro.html">Acasă</a></li>
-							<li role="presentation"><a href="repertoriu_ro.html">Repertoriu</a></li>
-							<li role="presentation"><a href="galerie_ro.html">Galerie</a></li>
-							<li role="presentation"><a href="contact_ro.html" class="active">Contact</a></li>												
+							<li role="presentation"><a href="home_en.html">Home</a></li>
+							<li role="presentation"><a href="repertoriu_en.html">Choreography</a></li>
+							<li role="presentation"><a href="galerie_en.html">Gallery</a></li>
+							<li role="presentation"><a href="contact_en.html">Contact</a></li>						
 						</ul>
 					</div>
 				</div>		
@@ -36,46 +36,53 @@
         </nav>	
     </header>
 	
-	<div class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11137.560043505078!2d21.20298371977539!3d45.74332660000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe10f3455e4fb4de3!2sCasa+de+Cultur%C4%83+a+Studen%C5%A3ilor!5e0!3m2!1sro!2sro!4v1540197424985" allowfullscreen></iframe>
-		</iframe>
-	</div>
-	
 	<section class="contact-page">
         <div class="container">
 
             <div class="text-center">        
-                <h2>Lăsați-ne un mesaj</h2>
-                <p>Pentru informații suplimentare ne puteți contacta, completând formularul de mai jos!</p>
+                <h2>Do you want us at your event?</h2>
+                <p>Fill in the form below to get the dancers to participate in your event!</p>
             </div> 
             <div class="row contact-wrap"> 
                 <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="email.php">
+               <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="insert_en.php">
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
-                            <label>Nume *</label>
-                            <input type="text" name="name" class="form-control" required="required">
+                            <label>Name *</label>
+                            <input type="text" name="nume" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>Email *</label>
+                            <label>Phone *</label>
+                            <input type="text" name="telefon" class="form-control" required="required">
+                        </div> 
+                        <div class="form-group">
+                            <label>E-mail *</label>
                             <input type="email" name="email" class="form-control" required="required">
+                        </div> 
+                        <div class="form-group">
+                            <label>Date *</label>
+                            <input type="date" name="data" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>Telefon</label>
-                            <input type="text" name="telefon" class="form-control">
-                        </div>                       
+                            <label>Hour *</label>
+                            <input type="time" name="ora" class="form-control" required="required">
+                        </div>                     
                     </div>
                     <div class="col-sm-5">
                         <div class="form-group">
-                            <label>Subiect *</label>
-                            <input type="text" name="subject" class="form-control" required="required">
+                                <label>Location *</label>
+                                <input type="text" name="locatie" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>Mesaj *</label>
-                            <textarea name="message" id="message" required="required" class="form-control" rows="5"></textarea>
+                            <label>Number of dancers (pairs) *</label>
+                            <input type="number" name="perechi" class="form-control" required="required" min="2" max="12" placeholder="Min: 2; Max: 12">
+                        </div>
+                        <div class="form-group">
+                            <label>Comments (Specify the number of dances and folkloric areas to represent!) *</label>
+                            <textarea name="obs" id="obs" required="required" class="form-control" rows="5" placeholder="Ex: Banat - 2; Oltenia, Moldova"></textarea>
                         </div>                        
                         <div class="form-group">
-                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Trimiteți mesajul</button>
+                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Send form</button>
                         </div>
                     </div>
                 </form> 
@@ -117,8 +124,6 @@
 			</div>						
 		</div>				
 	</div>
-
-	<a href="#" class="to-top"><i class="fa fa-chevron-up"></i></a>
 	
     <script src="js/jquery.js"></script>		
     <script src="js/bootstrap.min.js"></script>	
@@ -128,23 +133,5 @@
 	 {
 		}).init();
 	</script>	
-	<script>            
-		jQuery(document).ready(function() {
-			var duration = 500;
-			jQuery(window).scroll(function() {
-				if (jQuery(this).scrollTop() > 200) {
-					jQuery('.to-top').fadeIn(duration);
-				} else {
-					jQuery('.to-top').fadeOut(duration);
-				}
-			});
-				
-			jQuery('.to-top').click(function(event) {
-				event.preventDefault();
-				jQuery('html').animate({scrollTop: 0}, duration);
-				return false;
-			})
-		});
-	</script>
   </body>
 </html>

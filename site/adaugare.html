@@ -3,7 +3,7 @@
   <head>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	
-	<title>Doina Timișului - Formular</title>
+	<title>Doina Timișului</title>
 	<link rel="Icon" type="image/png" href="img/dt.png" />
 
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -13,39 +13,16 @@
 	<link href="css/style.css" rel="stylesheet" />
   </head>
 
-  <body>	
-	<header id="header">
-        <nav class="navbar navbar-default navbar-static-top" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                   <div class="navbar-brand">
-						<a href="index.html"><img src="img/dt.png" /><h1>Ansamblul folcloric "Doina Timișului"</h1></a>
-					</div>
-                </div>				
-                <div class="navbar-collapse collapse">							
-					<div class="menu">
-						<ul class="nav nav-tabs" role="tablist">
-							<li role="presentation"><a href="home_ro.html">Acasă</a></li>
-							<li role="presentation"><a href="repertoriu_ro.html">Repertoriu</a></li>
-							<li role="presentation"><a href="galerie_ro.html">Galerie</a></li>
-							<li role="presentation"><a href="contact.html">Contact</a></li>												
-						</ul>
-					</div>
-				</div>		
-            </div>
-        </nav>	
-    </header>
+  <body class="body-index">	
 	
 	<section class="contact-page">
         <div class="container">
-
             <div class="text-center">        
-                <h2>Ne dorești la evenimentul tău?</h2>
-                <p>Completaţi formularul de mai jos pentru ca dansatorii să participe la evenimentul dumneavoastra!</p>
+                <h2>Adaugă rezervare</h2>
             </div> 
             <div class="row contact-wrap"> 
                 <div class="status alert alert-success" style="display: none"></div>
-               <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="insert.php">
+               <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="admin_add.php">
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
                             <label>Nume *</label>
@@ -89,49 +66,6 @@
             </div>
         </div>
     </section>
-
-
-	<footer>
-		<div class="container">
-			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<h4>Contact rapid</h4>
-				<p>Mai multe informații puteți găsii la sediul Casei de Cultură a Studenților sau la telefon.</p>						
-				<div class="contact-info">
-					<ul>
-						<li><i class="fa fa-home fa"></i> Bulevardul Regele Carol I Nr. 9, Timișoara </li>
-						<li><i class="fa fa-phone fa"></i> +4 0256 496 711</li>
-					</ul>
-				</div>
-			</div>
-		</div>	
-	</footer>
-	
-	<div class="sub-footer">
-		<div class="container">
-			<div class="social-icon">
-				<div class="col-md-4">
-					<ul class="social-network">
-						<li><a href="https://www.facebook.com/Ansamblul-folcloric-Doina-Timisului-Official-523289564377770/" target="_blank" class="fa fa-facebook" title="Facebook"></a></li>
-						<li><a href="https://www.instagram.com/ansambluldoinatimisului/" target="_blank" class="fa fa-instagram" title="Instagram"></a></li>
-					</ul>	
-				</div>
-			</div>
-			
-			<div class="col-md-4 col-md-offset-4">
-				<div class="copyright">
-					&copy; Doina Timișului 2018
-				</div>
-			</div>						
-		</div>				
-	</div>
-	
-    <script src="js/jquery.js"></script>		
-    <script src="js/bootstrap.min.js"></script>	
-	<script src="js/wow.min.js"></script>
-	<script>
-	wow = new WOW(
-	 {
-		}).init();
-	</script>	
+    
   </body>
 </html>

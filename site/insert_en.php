@@ -36,15 +36,15 @@
         <div class="center-insert">
             <?php  if(!mysqli_query($con,$q))
             { ?>
-                <h1>Ne pare rau!</h1>
-                <h2>Rezervarea nu a fost înregistrată!<h2>
+                <h1>Sorry!</h1>
+                <h2>Booking not registered!</h2>
             <?php } else { ?>
-                <h1>Felicitări!</h1>
-                <h2>Rezervarea a fost înregistrată cu succes!</h2>
+                <h1>Congratulations!</h1>
+                <h2>Booking has been successfully registered!</h2>
             <?php } ?>
             <br>
             <div class="button-center">
-                <a href="home_ro.html"><button type="button" class="back-button">&#171; Înapoi</button></a>
+                <a href="home_en.html"><button type="button" class="back-button">&#171; Back</button></a>
             </div>
         </div>
     </body>

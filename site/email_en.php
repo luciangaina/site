@@ -32,15 +32,15 @@ $send= mail($to,$subject,$body,$headers);
         <div class="center-insert">
             <?php  if(!$send)
             { ?>
-                <h1>Ne pare rau!</h1>
-                <h2>Mesajul nu a putut fi trimis!</h2>
+                <h1>Sorry!</h1>
+                <h2>Message could not be sent!</h2>
             <?php } else { ?>
-                <h1>Felicitări!</h1>
-                <h2>Mesajul a fost trimis!</h2>
+                <h1>Congratulations!</h1>
+                <h2>The message was sent!</h2>
             <?php } ?>
             <br>
             <div class="button-center">
-                <a href="contact_ro.html"><button type="button" class="back-button">&#171; Înapoi</button></a>
+                <a href="contact_en.html"><button type="button" class="back-button">&#171; Back</button></a>
             </div>
         </div>
     </body>

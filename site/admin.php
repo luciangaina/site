@@ -46,8 +46,7 @@
         </div>
         <div class="center-admin">
             <h1>Bun venit, admin!</h1>
-            <br><br>
-            <h2>Tabelul rezervărilor</h2>
+            <h2>Rezervări:</h2>
             <?php
                 if(count($users)>0)
                 {?>
