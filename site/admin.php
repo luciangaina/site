@@ -41,6 +41,9 @@
 
     </head>
     <body class="body-index">
+        <div class="sign-out">
+            <a href="home_ro.html"><button type="button" class="back-button">Sign out</button></a>
+        </div>
         <div class="center-admin">
             <h1>Bun venit, admin!</h1>
             <br><br>
@@ -69,7 +72,7 @@
                                 {
                                     print sprintf('<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td>
                                     <td>%s</td><td>%s</td><td>%s</td><td><a href="" onclick="deleteuser(%s); return false;">
-                                    <i class="glyphicon glyphicon-trash"></i></a></td></tr>',
+                                    <i class="glyphicon glyphicon-trash" style="color:red"></i></a></td></tr>',
                                     $v['b_id'], $v['b_nume'], $v['b_telefon'], $v['b_email'], $v['b_data'], $v['b_ora'],
                                     $v['b_locatie'], $v['b_perechi'], $v['b_obs'], $v['b_id']);
                                 }
@@ -84,7 +87,7 @@
                 }
                 ?>
                 <br><br>
-                <a href="adaugare.html"><button>Adauga rezervare</button></a>
+                <a href="adaugare.html"><button class="back-button">Adauga rezervare</button></a>
         </div>
 
         <script src="js/jquery.js"></script>		

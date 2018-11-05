@@ -1195,6 +1195,7 @@ footer .btn-gamp input {
   font-size: 14px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition-duration: 0.4s;
+  border-radius: 16px;
 }
 
 .back-button:hover {
@@ -1389,6 +1390,11 @@ ul.social-network li a {
 
 .body-index table th {
   color: #fff;
+}
+
+.sign-out {
+  float: right;
+  padding-right: 40px;
 }
 
 .video-index{
