@@ -1314,6 +1314,19 @@ ul.social-network li a {
   width: 150px;
 }
 
+.login-img {
+  width: 35px;
+  height: 35px;
+}
+
+.button-right {
+  float: right;
+}
+
+.button-left {
+  float: left;
+}
+
 .login-button:hover {opacity: 1}
 
 .body-index {
@@ -1390,11 +1403,6 @@ ul.social-network li a {
 
 .body-index table th {
   color: #fff;
-}
-
-.sign-out {
-  float: right;
-  padding-right: 40px;
 }
 
 .video-index{

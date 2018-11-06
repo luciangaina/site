@@ -44,7 +44,7 @@
             <?php } ?>
             <br>
             <div class="button-center">
-                <a href="home_en.html"><button type="button" class="back-button">&#171; Back</button></a>
+                <a href="home_en.php"><button type="button" class="back-button">&#171; Back</button></a>
             </div>
         </div>
     </body>

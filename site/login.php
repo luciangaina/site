@@ -1,5 +1,7 @@
 <?php
 
+	session_start();
+
 	$username= $_POST["username"];
 	$password= $_POST["password"];
 
@@ -25,11 +27,9 @@
 <html>
 	<?php
 		if(mysqli_num_rows($res)>0)
-		{?>
-	<head>
-		<meta http-equiv="refresh" content="0; url='admin.php'" />
-	</head>
-	<?php
+		{
+			$_SESSION['user']=$username;
+			header('location:home_ro.php');
 		}
 		else
 		{?>

@@ -41,8 +41,9 @@
 
     </head>
     <body class="body-index">
-        <div class="sign-out">
-            <a href="home_ro.html"><button type="button" class="back-button">Sign out</button></a>
+        <div>
+            <a href="home_ro.php"><button type="button" class="back-button button-left">&#171; Înapoi</button></a>
+            <a href="logout.php"><button type="button" class="back-button button-right">Delogare</button></a>
         </div>
         <div class="center-admin">
             <h1>Bun venit, admin!</h1>
