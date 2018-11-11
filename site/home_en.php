@@ -112,8 +112,8 @@
 	<footer>
 		<div class="container">
 			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<h4>Contact rapid</h4>
-				<p>Mai multe informații puteți găsii la sediul Casei de Cultură a Studenților sau la telefon.</p>						
+				<h4>Quick contact</h4>
+				<p>More information can be found at the Student Culture House or on the phone.</p>						
 				<div class="contact-info">
 					<ul>
 						<li><i class="fa fa-home fa"></i> Bulevardul Regele Carol I Nr. 9, Timișoara </li>
@@ -152,20 +152,20 @@
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal">&times;</button>
-								<h3 class="modal-title">Autentificare</h3>
+								<h3 class="modal-title">Log in</h3>
 							</div>
 
 							<form method="POST" action="login.php">
 								<div class="modal-body">
 									<div class="form-group">
-										<input type="text" name="username" class="form-control" placeholder="Nume utilizator">
+										<input type="text" name="username" class="form-control" placeholder="Username">
 									</div>
 									<div class="form-group">
-										<input type="password" name="password" class="form-control" placeholder="Parolă">
+										<input type="password" name="password" class="form-control" placeholder="Password">
 									</div>
 								</div>
 								<div class="modal-footer">
-									<button type="submit" class="btn btn-success">Autentifică-te</button>
+									<button type="submit" class="btn btn-success">Log in</button>
 								</div>
 							</form>
 						</div>
